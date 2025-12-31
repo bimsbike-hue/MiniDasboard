@@ -25,7 +25,7 @@ Location: `firmware/`.
 - UI: main screen (large smoothed speed + accuracy + nav teaser + BLE state), notification banner (auto-hide after 8s, auto-rotate queue of 3), nav focus (arrow + distance when <150 m to turn).
 - BLE: always advertises when disconnected; shared callbacks parse packets and update UI state.
 
-Key file: `firmware/src/main.cpp`.
+Key file: `firmware/src/mini_dashboard.ino`.
 
 ## 4) Android app (Kotlin, Compose)
 Location: `android-app/` (Android Studio project).
